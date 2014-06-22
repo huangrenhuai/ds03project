@@ -108,8 +108,8 @@ analyzeData <- function(){
 }
 
 ## final step: write the data out to local driver
-writeData <- function(fn="tidy2.csv"){
-  write.csv(tidy2,file = fn) 
+writeData <- function(fn="tidy2.txt"){
+  write.table(tidy2,file = fn) 
 }
 
 runall <- function(){
